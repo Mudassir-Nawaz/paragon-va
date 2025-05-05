@@ -537,7 +537,7 @@ html {
     width: 64px;
     height: 64px;
     border-radius: calc(infinity * 1px);
-    background: linear-gradient(to bottom right, var(--color-accent), var(--color-primary));
+    background: linear-gradient(to bottom right, #CCEBF4, #CCD7EA);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -882,6 +882,7 @@ html {
 .testimonial__container .content__container {
     max-width: 896px;
     margin: 0 auto;
+    /* overflow: visible; */
 }
 
 .testimonial__container .content__container .testimonials__wrapper {

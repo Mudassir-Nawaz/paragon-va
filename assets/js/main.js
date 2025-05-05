@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const navBar = document.querySelector('.nav__bar');
     const faqMap = document.querySelectorAll('.faq');
 
+    var swiper = new Swiper('.testimonial-swiper', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-prev-slide',
+            prevEl: '.swiper-next-slide'
+        }
+    });
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 10) {
             navBar.classList.add('nav__bar-scrolled');
